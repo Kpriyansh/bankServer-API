@@ -1,0 +1,20 @@
+
+POST http://localhost:3002/auth/register
+Content-Type: application/json
+
+{
+    "username": "rahul",
+    "email": "rahul@gmail.com",
+    "phone": "8996898989",
+    "password": "123"
+}
+
+###
+POST http://localhost:3002/auth/signin
+Content-Type: application/json
+
+{
+    "email": "naman@gmail.com",
+    "phone": "898898989",
+    "password": "123"
+}
